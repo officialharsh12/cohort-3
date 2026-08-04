@@ -1,0 +1,471 @@
+@font-face {
+    font-family: sans bold;
+    src: url(./GeneralSans-Bold.otf);
+}
+
+@font-face {
+    font-family: sans normal;
+    src: url(./GeneralSans-Regular.otf);
+}
+
+@font-face {
+    font-family: sans semibold;
+    src: url(./GeneralSans-Semibold.otf);
+}
+
+:root{
+    --color: rgb(255, 149, 0);
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+main{
+    background: rgb(253, 97, 0);
+    height: 100%;
+    padding: 8px;
+    /* display: inline-block; */
+    
+}
+
+.beige{
+    /* height: calc(100% - 5px); */
+    height: 100%;
+    background-color: beige;
+    border-radius: 20px ;
+    /* overflow: hidden; */
+    
+}
+
+.right{
+    display: flex;
+    font-size: 1.5rem;
+    font-weight: 200;
+   padding-left: 2rem;
+    gap: 9vw;
+}
+
+.right>.text{
+    font-family: sans semibold;
+     padding-top: 5px
+}
+
+.right>h3{
+    font-family: sans bold;
+    padding-top: -3px;
+   
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+     padding: 1.5rem;
+    
+}
+
+.header{
+    height: 4.5rem;
+    border-bottom: 0.3px solid black;
+
+}
+
+section{
+    height: calc(100vh - 4.5rem - 16px - 25%);
+    /* background-color: yellow; */
+    display: flex;
+    margin-bottom: 0;
+    width: 100%;
+}
+
+.text{
+    display: flex;
+    gap: 3rem;
+    
+}
+h6{
+    font-weight: 400;
+}
+
+.side-icon{
+    padding-right: 20px;
+    font-size: 1.5rem;
+    display: flex;
+    gap: 20px;
+}
+
+.top>p{
+    color: var(--color);
+    font-size: 1rem;
+    font-weight: 400;
+    font-family: sans bold;
+    padding-left: 5rem;
+    padding-top: 0.8rem;
+    
+    
+}
+
+.left{
+    width: 30%;
+}
+
+.center{
+    width: 43%;
+}
+
+.right_side{
+    width: 25%;
+}
+
+
+
+.left .top>h1{
+    font-family: sans bold;
+    padding-left: 5rem;
+}
+
+.top>h1 .orange_in_span{
+    color: var(--color);
+    margin-left: 15px;
+}
+
+.top>span{
+    display: inline-block;
+    font-family: sans semibold;
+    font-size: 25px;
+    margin-left: 5rem;
+    padding-top: 10px;
+    border-bottom: 1px solid black ;
+    padding-bottom: 6px;
+    width: 18rem;
+    
+}
+
+.Description{
+    width: 100%;
+    padding-left: 5rem;
+    font-family: sans normal;
+}
+.Description>h4{
+    margin-top: 1rem;
+    padding-bottom: 10px;
+    font-family: sans semibold;
+}
+.Readmore h6{
+    display: inline-block;
+    font-size: 15px;
+    margin-top: 0px;
+    margin-left: 5rem;
+    border-bottom: 1px solid black;
+    padding-bottom: 10px;
+    width: 18rem;
+    font-family: sans semibold;
+    
+}
+
+.Readmore i{
+    font-size: 40px;
+    vertical-align: -8px;
+}
+
+.material h6{
+    display: inline-block;
+    width: 18rem;
+    font-size: 16px;
+    margin-left: 5rem  ;
+    margin-top: 15px;
+    font-family: sans semibold;
+    border-bottom: 1px solid black;
+    padding-bottom: 10px;
+}
+
+.material i{
+    margin-left: 120px;
+}
+
+.shipping h6{
+    font-size: 16px;
+    margin-left: 5rem  ;
+    margin-top: 15px;
+    font-family: sans semibold;
+}
+
+.shipping i{
+    margin-left: 90px;
+}
+
+.center .jacket>img{
+    width: 40vw;
+    height: 65vh;
+    margin-left: 0px;
+
+}
+
+.center .texts{
+    font-size: 1.2rem;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin-left: -2rem;
+    margin-top: -25px;
+    transform: translateY(-100%);
+}
+
+.right_side .upper h4{
+    font-family: sans semibold;
+    margin-top: 3rem;
+    margin-left: 7rem;
+    font-size: 25px;
+    padding-bottom: 10px;
+    
+}
+
+.upper .buttons{
+    display: flex;
+    gap: 25px;
+    margin-left: 2rem;
+}
+ .upper .buttons button{
+    padding: 10px 13px;
+     border: 0px solid black;
+    border-radius: 5px;
+    transition: all ease 0.3s;
+    color: black;
+    font-weight: 500;
+    background-color: rgb(205, 205, 189);
+    
+ }
+
+  .upper .buttons button:hover{
+    color: wheat;
+    background-color: var(--color);
+}
+
+.right_side .upper h5{
+    position: relative;
+    display: inline-block;
+    font-family: sans semibold;
+    margin-top: 13px;
+    margin-left: 6rem;
+    font-size: 14px;
+    padding-bottom: 10px;
+}
+
+.right_side .upper h5::after{
+    content: "";
+    position: absolute;
+    left: -90px;     /* extend 60px to the left */
+    bottom: -5px;
+    width:300px;    /* total line length */
+    height: 1px;
+    background: black;
+}
+ .right_side .upper>h6{
+    font-size: 18px;
+    font-family: sans semibold;
+    margin-top: 17px;
+    margin-left: 7rem;
+
+ }
+
+.right_side .upper .four_photos {
+    width: 250px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.right_side .upper .four_photos .one{
+    width: 80px;
+    margin-left: 50px;
+    margin-top: 10px;
+    background-color: rgb(207, 201, 201);
+}
+
+
+.right_side .upper .four_photos .two{
+    width: 55px;
+    margin-left: 10px;
+    margin-top: 5px;
+    background-color: rgb(207, 201, 201);
+}
+
+
+.right_side .upper .four_photos .three{
+        width: 55px;
+    margin-left: 50px;
+    margin-top: 5px;
+    background-color: rgb(207, 201, 201);
+
+}
+
+.right_side .upper .four_photos .fourth{
+            width: 55px;
+    margin-left: 35px;
+    margin-top: 5px;
+    background-color: rgb(207, 201, 201);
+    
+}
+
+.right_side .wishlist{
+    color: black;
+        background-color: beige;
+
+    font-family: sans semibold;
+    padding: 5px 15px;
+    border-radius: 15px;
+    margin-top: 1.2rem;
+    margin-left: 4rem ;
+    transition: all ease 0.4s;
+
+}
+
+.right_side .add{
+    color: black;
+    background-color: beige;
+    font-size: 15px;
+    font-family: sans semibold;
+    padding: 9px 30px;
+    border-radius: 20px;
+    margin-top: 1rem;
+    margin-left: 4rem ;
+    transition: all ease 0.4s;
+
+}
+
+.right_side .wishlist:hover{
+    color: beige;
+    background-color: var(--color);
+}
+
+
+.right_side .add:hover{
+    color: beige;
+    background-color: var(--color);
+}
+
+.bottom{
+    height: 18%;
+    background-color: rgb(228, 228, 203);
+    margin: 10px 20px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.beige .bottom .fir{
+    height: 85%;
+    width: 160px;
+    margin: 10px;
+    background-color: yellow;
+    background-image: url(./jacket-3-removebg-preview.png);
+    background-position: center;
+}
+.beige .bottom .sec{
+    height: 85%;
+    width: 160px;
+    margin: 10px;
+    padding: 12PX;
+    font-size:25px;
+
+}
+
+.beige .bottom .sec>p{
+    font-size: 10px;
+    margin: 10px 0px;
+}
+
+
+.beige .bottom .thi{
+    height: 85%;
+    width: 160px;
+    margin: 10px;
+    background-color: yellow;
+        background-image: url(./jacket-3-removebg-preview.png);
+    background-position: center;
+
+}
+.beige .bottom .for{
+    height: 85%;
+    padding: 15PX;
+    width: 160px;
+    margin: 10px;
+    font-size: 30PX;
+}
+.beige .bottom .for>p{
+    font-size: 10px;
+    margin: 10px 0px;
+}
+
+.beige .bottom .fif{
+    height: 85%;
+    width: 160px;
+    margin: 10px;
+    background-color: yellow;
+        background-image: url(./jacket-3-removebg-preview.png);
+    background-position: center;
+}
+.beige .bottom .six{
+    height: 85%;
+    width: 160px;
+    margin: 10px;
+    padding: 15PX;
+    font-size: 30px;
+}
+.beige .bottom .six>p{
+    font-size: 10px;
+    margin: 10px 0px;
+}
+
+.beige .bottom .sev{
+    height: 85%;
+    width: 160px;
+    margin: 10px;
+    background-color: yellow;
+        background-image: url(./jacket-3-removebg-preview.png);
+    background-position: center;
+}
+.beige .bottom .eig{
+    height: 85%;
+    width: 160px;
+    margin: 10px;
+    padding: 15PX;
+    font-size: 30px;
+}
+
+.beige .bottom .eig>p{
+    font-size: 10px;
+    margin: 10px 0px;
+}
+
+.top-bottom{
+    height: 4%;
+    border-radius: 20px;
+    background-color: rgb(228, 228, 204);
+    margin: 1px 20px;
+    display: flex;
+    justify-content: space-around;
+    padding: 7px;
+    font-family: sans semibold;
+}
+
+
+
+
+
+
+
+
+

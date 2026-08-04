@@ -1,0 +1,260 @@
+@font-face {
+    font-family: Google;
+    src: url(./BebasNeue-Regular.ttf);
+    
+}
+
+@font-face {
+    font-family: Inter;
+    src: url(./Inter-VariableFont_opsz\,wght.ttf);
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+main{
+    height: 100%;
+    width: 100%;
+    padding: 80px 100px;
+    background-color:#09101A;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+}
+
+.left-top h1{
+    font-size: 130px;
+    font-family: Google;
+    
+}
+
+.left-top h3{
+    font-size: 23px;
+    font-family: Inter;
+    font-weight: 300;
+    
+}
+
+header .centre-top{
+    display: flex;
+    column-gap: 300px;
+    padding-top: 40px;
+    position: absolute;
+    left: 35%;
+}
+
+.centre-top .txt1{
+    line-height: 35px;
+    font-size: 17px;
+    font-family: Inter;
+    font-weight: 300;
+}
+
+.centre-top .txt2{ 
+    line-height: 28px;
+    font-size: 17px;
+    font-family: Inter;
+    font-weight: 400;
+}
+
+
+.centre-top:nth-child(2){
+    font-size: 20px;
+    column-gap: 300px;
+}
+
+/* .filter-btn{
+    display: flex;
+} */
+
+.btn{
+    height: 70px;
+    width: 250px;
+    font-size:40px ;
+    border: none;
+    border-radius: 20px;
+    background-color: #0f2133;
+    margin-right: 40px;
+    margin-top: 40px;
+}
+
+.btn:hover{
+    color: rgb(196, 196, 193);
+    background-color: #3c5b85;
+}
+
+#section-1{
+    height: 42%;
+    width: 100%;
+    margin-top: 15px ;
+    display: flex;
+    gap: 26px;
+
+    
+}
+
+.left{
+    height: 98%;
+    width: 36%;
+    background-color: rgb(245, 16, 16);
+    border-radius: 20px;
+    background-image: url(./first_1.jpeg);
+    background-position: 0px -200px;
+
+}
+
+.two-centre{
+    height: 98%;
+    width: 20%;
+    background-color: white;
+    border-radius: 20px;
+    background-image: url(./second_photo.jpeg);
+    background-position: center;
+
+}
+
+.three-centre{
+    height: 98%;
+    width: 20%;
+    background-color: white;
+    border-radius: 20px;
+    background-image: url(./third_photo.jpeg);
+    background-position: -150px 10px;
+}
+
+.four-centre{
+    height: 98%;
+    width: 20%;
+    background-color: white;
+    border-radius: 20px;
+    background-image: url(./fourth_4.jpeg);
+    background-position: center;
+
+}
+
+#section-2{
+    height: 40%;
+    width: 100%;
+    /* background-color: yellow; */
+    /* margin-top: 15px ; */
+    display: flex;
+    gap: 25px;
+    
+}
+
+.sec-1{
+    height: 97%;
+    width: 19%;
+    background-color: rgb(245, 16, 16);
+    border-radius: 20px;
+    background-image: url(./first_photo.jpeg);
+    background-position: center bottom;
+}
+
+.sec-2{
+    height: 97%;
+    width: 19%;
+    background-color: rgb(245, 16, 16);
+    border-radius: 20px;
+    background-image: url(./second_photo.jpeg);
+    background-position: center;
+}
+.sec-3{
+    height: 97%;
+    width: 19%;
+    background-color: rgb(245, 16, 16);
+    border-radius: 20px;
+    background-image: url(./second_2.jpeg);
+    background-position: 0 -130px;
+}
+
+.sec-4{
+    height: 97%;
+    width: 19%;
+    background-color: rgb(245, 16, 16);
+    border-radius: 20px;
+    background-image: url(./fourth.jpeg);
+    background-position: center center;
+
+}
+
+.sec-5{
+    height: 97%;
+    width: 19%;
+    background-color: rgb(245, 16, 16);
+    border-radius: 20px;
+    background-image: url(./fifth.jpeg);
+    background-position: center -250px;
+
+}
+
+footer{
+    min-height: 120px;
+    width: 99%;
+    border-radius: 20px;
+    background-color: #122640;
+    font-family: Inter;
+    
+   
+}
+
+.footer{
+    display: flex;
+    justify-content: space-around;
+     gap: 200px;
+     padding-top: 30px;
+     font-size: 30px;
+     
+}
+
+.right-bottom{
+    display: flex;
+    gap: 50px;
+    font-size: 20px;
+    padding-left: 30px;
+
+
+    
+}
+
+.texts{
+    display:flex;
+    gap: 110px;
+    padding-left: 150px;
+    padding-top: 15px;
+}
+
+.logos{
+    display: flex;
+    gap: 50px;
+    padding-top: 15px;
+     padding-left: 50px;
+}
+
+
+#logo{
+    font-size: 90px;
+    padding-left: -150px;
+    padding-top: 20px;
+    padding-bottom: 0px;
+    /* padding-right: 50px; */
+}
+
+.right-bottom:nth-child(2){
+    padding-bottom: 150px;
+}
+
+
+
